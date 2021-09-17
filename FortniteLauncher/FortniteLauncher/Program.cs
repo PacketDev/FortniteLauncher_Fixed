@@ -26,7 +26,7 @@ namespace FortniteLauncher
 
         static void Main(string[] args)
         {
-            Log.Logs("Welcome to Sky's Private Server");
+            Log.Logs("FortniteLauncher by !Sky");
             if (!File.Exists(launcherExe) | !File.Exists(shippingExe) | !File.Exists(eacShippingExe))
             {
                 Log.Error("Something is wrong with your Fortnite installation or can't find your installation");
